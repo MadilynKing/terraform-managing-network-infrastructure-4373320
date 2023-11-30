@@ -44,11 +44,6 @@ variable "public_sg" {
   type         = string
 }
 
-variable "public_ip" {
-  description  = "Public IP to whitelist"
-  type         = string
-}
-
 # instance variables
 variable "instances" {
   description  = "List of AWS instances"
