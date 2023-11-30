@@ -64,9 +64,3 @@ variable "ami_id" {
   description  = "ID of amazon machine image"
   type         = string
 }
-
-variable "public_key" {
-  description  = "Path to public key"
-  type         = string
-  sensitive    = true
-}
